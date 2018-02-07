@@ -6,3 +6,6 @@
 Requires your own private Google API key - get one here: https://developers.google.com/maps/documentation/directions/
 
 Then simply create a file traffic/_apikey.py and set the key to variable API_KEY.
+
+#### Example - My journey to work
+![alt text](https://raw.githubusercontent.com/thomasms/trafficwatch/master/traffic.png)
