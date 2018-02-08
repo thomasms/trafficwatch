@@ -4,6 +4,7 @@
 
 
 Requires your own private Google API key - get one here: https://developers.google.com/maps/documentation/directions/
+
 Note that you're limited to 2,500 calls within a 24 hour period.
 
 Then simply create a file traffic/secrets/_apikey.py and set the key to variable API_KEY.
