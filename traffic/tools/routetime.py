@@ -37,8 +37,8 @@ def main():
                 print(dt[-1], times[-1])
 
         fig, ax = plt.subplots(1)
-        ax.plot(dt, times, label='home to work', color='black')
-        ax.plot(dt, timesrev, label='work to home', color='red')
+        ax.plot(dt, times, label='origin to dest', color='black')
+        ax.plot(dt, timesrev, label='dest to origin', color='red')
         # rush hour peak
         ax.axvline(x=datetime.datetime(year, month, day, 7, 30, tzinfo=pytz.timezone('Europe/London')), linestyle='--', color='orange')
         ax.axvline(x=datetime.datetime(year, month, day, 9, 00, tzinfo=pytz.timezone('Europe/London')), linestyle='--', color='orange')
